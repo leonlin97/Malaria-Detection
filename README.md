@@ -1,19 +1,19 @@
 # Malaria Detection
 
 # Table of content
-1. Executive Summary
-2. Project Background
-3. Objective
-4. Methodologies to approach the solutions
-5. Data Description
-6. CNN Base Model
-7. 1st Model: adding new layers
-8. 2nd Model: adding Batch Normalization and Set LeakyRelu as the activation function
-9. 3rd Model: using Data Augmentation
-10. 4th Model: using the Pre-trained model (VGG16)
-11. Conclusion with the best-performed model: Model 3 with Data Augmentation
-12. Recommendation to improve the model performance with new data
-13. Recommendations for Implementation
+1. [Executive Summary](#Executive-Summary)
+2. [Project Background](#Project-Background)
+3. [Objective](#Objective)
+4. [Methodologies to approach the solutions](#Methodologies-to-approach-the-solutions)
+5. [Data Description](#Data-Description)
+6. [CNN Base Model](#CNN-Base-Model)
+7. [1st Model: adding new layers](#1st-Model-adding-new-layer)
+8. [2nd Model: adding Batch Normalization and Set LeakyRelu as the activation function](#2nd-Model-adding-Batch-Normalization-and-Set-LeakyRelu-as-the-activation-function)
+9. [3rd Model: using Data Augmentation](#3rd Model-using-Data-Augmentation)
+10. [4th Model: using the Pre-trained model (VGG16)](#4th-Model-using-the-Pre-trained-model-VGG16)
+11. [Conclusion with the best-performed model: Model 3 with Data Augmentation](#Conclusion-with-the-best-performed-model-Model-3-with-Data-Augmentation)
+12. [Recommendation to improve the model performance with new data](#Recommendation-to-improve-the-model-performance-with-new-data)
+13. [Recommendations for Implementation](#Recommendations-for-Implementation)
 
 ## Executive Summary
 Malaria is a life-threatening disease affecting millions globally, with over 400,000 deaths annually. Traditional diagnosis through in-person inspection is time-consuming, prone to error due to inter-observer variability, and often identifies malaria only in its later stages, which is too late for effective intervention.
