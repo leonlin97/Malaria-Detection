@@ -1,6 +1,32 @@
 # Malaria Detection
 
-## Context
+# Table of content
+1. Executive Summary
+2. Project Background
+3. Objective
+4. Methodologies to approach the solutions
+5. Data Description
+6. CNN Base Model
+7. 1st Model: adding new layers
+8. 2nd Model: adding Batch Normalization and Set LeakyRelu as the activation function
+9. 3rd Model: using Data Augmentation
+10. 4th Model: using the Pre-trained model (VGG16)
+11. Conclusion with the best-performed model: Model 3 with Data Augmentation
+12. Recommendation to improve the model performance with new data
+13. Recommendations for Implementation
+
+## Executive Summary
+Malaria is a life-threatening disease affecting millions globally, with over 400,000 deaths annually. Traditional diagnosis through in-person inspection is time-consuming, prone to error due to inter-observer variability, and often identifies malaria only in its later stages, which is too late for effective intervention.
+
+The primary objective of this project is to develop an efficient machine learning model capable of accurately detecting malaria from red blood cell images. This automated system aims to enhance early-stage detection, reducing manual errors and improving overall diagnostic reliability.
+
+After the evaluation of several models, we recommended apply the Model 3 with Data Augmentation, which achieved an impressive accuracy of 98.3% and is the best performance model among all. The confusion matrix shows balanced performance with 1278 true positives and true negatives, and only 22 false positives and false negatives.This model's high precision and recall underscore its effectiveness in early malaria detection, making it highly suitable for deployment in real-world healthcare settings. The successful implementation of this model could significantly impact global health by enabling early detection and timely treatment of malaria, ultimately saving lives and resources.
+<img width="1204" alt="image" src="https://github.com/user-attachments/assets/69d93fe8-8e9d-4474-bdce-4733d0214fed">
+
+Integrate the malaria detection model with healthcare systems, provide training, and monitor performance. Secure funding, collaborate with experts, and develop ethical policies. Benefits include reduced late-stage diagnoses and labor costs, with costs for setup and maintenance. Address data privacy, model bias, and operational challenges, and assess scalability and long-term performance.
+
+
+## Project Background
 Malaria has caused more than 400,000 related death and there were more than 220 million cases happening around the world. To diagnosis if a person has malaria, it is a tedious, time-consuming process in traditional in-person inspection, with affected accuracy due to inter-observer variability. Even worst, the human-inspection can only diagoze Malaria in it later stage, which is too late to take action.
 
 Yet, an automated system can greatly boost efficiency and accuracy of diagonising Malaria in its early stage by using machine learning and artificial intelligence techniques. This system will not only reduce manual error classification but also benefit the human health.
@@ -209,10 +235,10 @@ The false negatives (500) and false positives (357) indicate that the model can 
 3. **Overall Accuracy and Reliability**:
 An overall accuracy of 0.67, with balanced precision and recall values, indicates that the model is moderately effective but has room for improvement. Techniques such as fine-tuning more layers of the VGG16 model, employing more advanced augmentation strategies, or using ensemble methods could potentially enhance the model's performance.
 
-## **Conclusion with the best-performed model: Model 3 with Data Augmentation**
+## Conclusion with the best-performed model: Model 3 with Data Augmentation
 The best-performing model, Model 3 with Data Augmentation, achieved an impressive accuracy of 98.3%. The confusion matrix shows balanced performance with 1278 true positives and true negatives, and only 22 false positives and false negatives. Data augmentation significantly enhanced model robustness, reducing overfitting and improving generalization. The accuracy and loss curves demonstrate consistent training and validation performance. This model's high precision and recall underscore its effectiveness in early malaria detection, making it highly suitable for deployment in real-world healthcare settings. Overall, integrating data augmentation with Batch Normalization and LeakyReLU activation resulted in a highly accurate and reliable model.
 
-## **Recommendation to improve the model performance with new data**
+## Recommendation to improve the model performance with new data
 1. **Increase Dataset Size**: Collect more diverse and high-quality images to improve model robustness and generalization.
 
 2. **Advanced Data Augmentation**: Implement more sophisticated augmentation techniques like random rotations, contrast adjustments, and synthetic data generation to increase training data diversity.
@@ -228,7 +254,7 @@ The best-performing model, Model 3 with Data Augmentation, achieved an impressiv
 7. **Model Interpretability**: Implement methods like Grad-CAM to visualize and interpret model decisions, ensuring transparency and trustworthiness.
 
 
-## **Recommendations for Implementation**
+## Recommendations for Implementation
 ### Key Recommendations to Implement the Solution:
 
 1. **Integration with Healthcare Systems:** Seamlessly integrate the model into existing healthcare infrastructure for easy access by medical professionals.
