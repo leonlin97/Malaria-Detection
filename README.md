@@ -7,9 +7,9 @@
 4. [Methodologies to approach the solutions](#Methodologies-to-approach-the-solutions)
 5. [Data Description](#Data-Description)
 6. [CNN Base Model](#CNN-Base-Model)
-7. [1st Model: adding new layers](#1st-Model-adding-new-layer)
+7. [1st Model: adding new layers](#1st-Model-adding-new-layers)
 8. [2nd Model: adding Batch Normalization and Set LeakyRelu as the activation function](#2nd-Model-adding-Batch-Normalization-and-Set-LeakyRelu-as-the-activation-function)
-9. [3rd Model: using Data Augmentation](#3rd Model-using-Data-Augmentation)
+9. [3rd Model: using Data Augmentation](#3rd-Model-using-Data-Augmentation)
 10. [4th Model: using the Pre-trained model (VGG16)](#4th-Model-using-the-Pre-trained-model-VGG16)
 11. [Conclusion with the best-performed model: Model 3 with Data Augmentation](#Conclusion-with-the-best-performed-model-Model-3-with-Data-Augmentation)
 12. [Recommendation to improve the model performance with new data](#Recommendation-to-improve-the-model-performance-with-new-data)
@@ -57,7 +57,7 @@ There are a total of 24,958 train and 2,600 test images (colored) that we have t
 ![image](https://github.com/user-attachments/assets/1db36e1c-7df7-4f2e-a466-cdf027f82546)
 
 ## Model Developemnt
-### Based CNN Model
+### CNN Base Model
 Using the basic structire to get a quick overview of current performance.
 ![image](https://github.com/user-attachments/assets/c436ade9-7ab8-4a50-881f-5767bdbeeb16)
 ![image](https://github.com/user-attachments/assets/fd7d3569-0366-4950-8b73-f7ed4de44cd4)
